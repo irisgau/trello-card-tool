@@ -1,0 +1,54 @@
+html {
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif, 'Lucida Sans Unicode', 'Lucida Grande';
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	color: white;
+}
+
+body {
+	margin: 30;
+
+}
+
+h5 {
+	margin-bottom: 2px;
+	color: white;
+	font-style: italic;
+}
+
+h6 { 
+	color: white;
+	font-style: italic;
+	display: inline
+}
+
+h2 {
+	text-align: center;
+	font-family: SignPainter-HouseScript, Verdana, serif;
+	color: white;
+	font-size: 40px;
+}
+
+p {
+	color: white;
+}
+
+#usernames {
+	color: white;
+}
+
+#container {
+	background: #0079BF; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#5BA4CF, #026AA7); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#5BA4CF, #026AA7); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#5BA4CF, #026AA7); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#5BA4CF, #026AA7); /* Standard syntax (must be last) */
+	margin-left: auto;
+	margin-right: auto;
+	width: 400px;
+	padding: 10px 20px 30px 25px;
+	border-radius: 25px;
+	box-shadow: 5px 5px 5px #838C91;
+}
+
+
