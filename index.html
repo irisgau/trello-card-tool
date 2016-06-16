@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Trello Entry</title>
+
+	<!-- stylesheets-->
+	</script>
+	<link rel="stylesheet" type="text/css" href="assets/styles/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="assets/styles/custom-stylesheet.css">
+
+	
+</head>
+<body>
+	<div id ="container">
+		<h2>Trello Entry</h2>
+		<form>
+			<fieldset>
+				<div id = "usernames">
+				<h5>Username: </h5>
+					<input class="messageCheckbox1" color = white id = "checkbox1" type="checkbox" name="username" value="@irisgau1"> @irisgau1 <br>
+					<input class="messageCheckbox2" id = "checkbox2" type="checkbox" name="username" value="@ludekarts"> @ludekarts <br>
+					<input class="messageCheckbox3" id = "checkbox3" type="checkbox" name="username" value="@michaelmoran23"> @michaelmoran23 <br>
+					<input class="messageCheckbox4" id = "checkbox4" type="checkbox" name="username" value="@tomaszstach1"> @tomaszstach1 <br>
+				</div>
+			</fieldset>
+			<fieldset>
+				<h5> Description:</h5>
+					<textarea id="description" placeholder="Describe your task." rows="5" cols="50"></textarea> 
+					<br>
+			</fieldset>
+			<fieldset>
+				<h5>Exit criteria:</h5>
+					<textarea id="exitcriteria" placeholder="Criteria for completion." rows="5" cols="50"></textarea> 
+			</fieldset>
+			<fieldset>
+				<h5>Enter estimated hours:</h5>
+				<h6> O: </h6> <input type="number" id="timeo" font-color = "grey" name="optimistic" placeholder="Optimistic"  min="0" step = "0.5"> <br>
+				<h6> L: </h6> <input type="number" id="timel" name="likely" placeholder="Likely"size="5"  min="0" step = "0.5"> <br>
+				<h6> P: </h6> <input type="number" id="timep" name="pessimistic" placeholder="Pessimistic" size="5" min="0" step = "0.5"> <br><br>
+				
+			</fieldset>
+		</form>
+		<button id="mdButton"> Submit </button> <br> <br>
+		<p id="output"> </p>
+
+		<button class="btn" data-clipboard-text="copied">
+		Copy to clipboard
+		</button>
+
+		<script src="assets/scripts/main.js"> </script> 
+	</div>
+</body>
+</html>
+
+	<br><br>
+
+
